@@ -61,7 +61,7 @@
 						"Fn::Join": ["", [
 							"#!/bin/bash -v\n",
 							"echo 'env=qa\n",
-							"cmp=prod' > /tmp/envdata\n",
+							"cmp=UI' > /tmp/envdata\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
 							}, "'\n"
