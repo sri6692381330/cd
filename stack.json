@@ -60,8 +60,8 @@
 					"Fn::Base64": {
 						"Fn::Join": ["", [
 							"#!/bin/bash -v\n",
-							"echo 'env=qa\n",
-							"cmp=UI' > /tmp/envdata\n",
+							"echo 'env=::env::\n",
+							"cmp=::cmp::' > /tmp/envdata\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
 							}, "'\n"
