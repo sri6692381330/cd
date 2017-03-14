@@ -62,6 +62,11 @@
 							"#!/bin/bash -v\n",
 							"echo 'env=::env::\n",
 							"cmp=::cmp::' > /tmp/envdata\n",
+							"yum -y install wget\n",
+							 "cd /tmp\n",
+							"wget http://52.88.186.177/bootchef.sh\n",
+							"chmod +x bootchef.sh\n",
+							"sh bootchef.sh\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
 							}, "'\n"
