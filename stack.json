@@ -64,7 +64,7 @@
 							"cmp=::cmp::' > /tmp/envdata\n",
 							"yum -y install wget\n",
 							 "cd /tmp\n",
-							"wget http://52.88.186.177/bootchef.sh\n",
+							"wget http://34.208.44.38/bootchef.sh\n",
 							"chmod +x bootchef.sh\n",
 							"sh bootchef.sh\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
