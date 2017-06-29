@@ -9,14 +9,14 @@
   },
    {
     "ParameterKey": "KeyName",
-    "ParameterValue": "klo"
+    "ParameterValue": "key"
    },
   {
      "ParameterKey": "SubnetId",
-    "ParameterValue": "subnet-f35de094"
+    "ParameterValue": "subnet-bb8c51e0"
   },
   {
     "ParameterKey": "InstanceSecurityGroup",
-    "ParameterValue": "sg-a40974dc"
+    "ParameterValue": "sg-4519203e"
   }
 ]
