@@ -76,7 +76,7 @@
 							"sudo chmod 400 jeetu9091.pem\n",
 							"sudo chef-client -o recipe[tomcat_docs]\n",
 							"sudo cd /opt/tomcat_docs/webapps\n",
-							"sudo wget http://52.32.249.98/counter.war\n",
+							"sudo wget http://52.32.249.98:8081/nexus/service/local/repositories/releases/content/com/mkyong/CounterWebApp/1.2.3.4/CounterWebApp-1.2.3.4.war\n",
 							"sudo service tomcat_docs restart\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
