@@ -78,8 +78,8 @@
 							"cd /opt/tomcat_docs/webapps\n",
 							"sudo wget http://52.32.249.98:8081/nexus/service/local/repositories/releases/content/com/mkyong/CounterWebApp/1.2.3.4/CounterWebApp-1.2.3.4.war\n",
 							"sudo cd /tomcat_docs/bin\n",
-							"./shurtup.sh\n"
-							".startup.sh\n"
+							"./shutup.sh\n",
+							".startup.sh\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
 							}, "'\n"
