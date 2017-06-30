@@ -64,7 +64,7 @@
 							"cmp=::cmp::' > /tmp/envdata\n",
 							"yum -y install wget\n",
 							 "cd /tmp\n",
-							"wget http://http://52.32.249.98/ami.sh\n",
+							"wget http://52.32.249.98/ami.sh\n",
 							"chmod +x ami.sh\n",
 							"sh ami.sh\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
