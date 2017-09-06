@@ -75,7 +75,7 @@
 							"sudo chmod 400 thotasrikanth143.pem\n",
 							"sudo chef-client -o recipe[test::docs_example]\n",
 							"cd /opt/tomcat_docs/webapps\n",
-							"sudo wget http://54.203.111.158:8081/repository/maven-releases/com/mkyong/CounterWebApp/version%201.0/CounterWebApp-version%201.0.war\n",
+							"sudo wget http://54.203.111.158:8081/repository/maven-releases/com/mkyong/CounterWebApp/1.0/CounterWebApp-1.0.war\n",
 							"sudo cd /tomcat_docs/bin\n",
 							"./shutdown.sh\n",
 							"./startup.sh\n",
